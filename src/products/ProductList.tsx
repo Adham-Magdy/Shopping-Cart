@@ -22,6 +22,7 @@ const ProductList: React.FC<productProps> = () => {
       <label><h1>Products List</h1></label>
       {
         products.map((product)=>(
+          // display product details 
           <section className="card" key={product.id}>
                 <h4>Product: {product.tittle}</h4>
                 <p>Price : {product.price}</p>
