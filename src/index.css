@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: auto;
+  text-align: center;
+}
+
+.add-btn{
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.add-btn:hover{
+  background-color: red;
+}
+.data-input{
+  margin-right: 3px;
+  width: 300px;
+  height: 40px;
+  background-color: #ddd;
+  color: #242424;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid coral;
+  border-radius: 10px;
+  
+}
+.add-price{
+  width: 150px;
+  height: 50px;
+  background-color: bisque;
+  border: 1px solid #242424;
+  color: #242424;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card{
+  background-color: lightblue;
+  padding: 3px;
+  border-radius: 50px;
+  color: #242424;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+.card-cart{
+  width: 500px;
+  background-color: lightblue;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #242424;
+  color: #242424;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  
+}
+.delete-btn{
+  width: 150px;
+  height: 50px;
+  background-color:red;
+  border: 1px solid #242424;
+  color: #ddd;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+.delete-btn-cart{
+  width:fit-content;
+  height: 50px;
+  background-color:crimson;
+  border: 1px solid #242424;
+  color: #ddd;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+.cart-btn{
+  width: 150px;
+  height: 50px;
+  background-color:green;
+  border: 1px solid #242424;
+  color: #ddd;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
