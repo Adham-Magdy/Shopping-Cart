@@ -104,6 +104,7 @@ export const getErrorMessage = (state: RootState)=> state.product.errorMessage;
 export const {addProduct,removeProduct} = productReducer.actions;
 export default productReducer.reducer;
 
+// adding all functionalities of adapter selectors
 export const {
     selectAll: selectAllProducts,
     selectById: selectProductByID,
